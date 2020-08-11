@@ -1,0 +1,113 @@
+/*  
+Thanks to: Usama Tahir
+https://medium.c`om/@AmJustSam
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+   
+  html{
+    width: 100vw;
+    height: 100vh;
+  }
+   
+   /* CSS which you need for blurred box */
+  body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-image:url("outdoors.jpg");
+    background-color:#464646;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+  }
+  .btn-secondary {
+    margin-left: 80%;
+  }
+  #blurred-box {
+    text-align: center;
+    position: fixed;
+    width: 500px;
+    top: calc(50% - 175px);
+    left: calc(50% - 250px);
+    background: inherit;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 0;
+    border: solid 2px #f5f5f50a;
+  }
+   
+  #blurred-box:after{
+    content: '';
+    width: 2000px;
+    height: 2000px;
+    background: inherit; 
+    position: absolute;
+    box-shadow: inset 0 0 0 1200px rgba(255,255,255,0.05);
+    filter: blur(4px);
+  }
+
+  #textCenter {
+    text-align: center;
+  }
+
+  #textWhite {
+    color: black;
+    text-align: center;
+    z-index: 1;
+  }
+
+  #userName, 
+  #userEmail,
+  #userMessage {
+    z-index: 1;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 100%;
+    color: black
+  }
+  #contactMe {
+    align-content: center;
+  }
+  #z {
+    z-index: 1;
+  }
+
+  #inherit {
+    background: inherit;
+  }
+
+  article {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  button {
+    margin-bottom: 5%;
+  }
+   
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("outdoors.jpg");
+  }
+
+	#blurred-box {
+    width: 100%;
+    left: 0;
+    transform: translate(0, 0);
+  }
+  #userName, 
+  #userEmail,
+  #userMessage {
+    margin-left: 10px;
+  }
+}
