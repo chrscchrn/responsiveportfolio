@@ -1,7 +1,3 @@
-/*  
-Thanks to: Usama Tahir
-https://medium.c`om/@AmJustSam
-*/
 
 *{
     margin: 0;
@@ -13,7 +9,7 @@ https://medium.c`om/@AmJustSam
     height: 100vh;
   }
    
-   /* CSS which you need for blurred box */
+   
   body{
     background-repeat: no-repeat;
     background-attachment: fixed;
