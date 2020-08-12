@@ -17,3 +17,8 @@ https://medium.com/@AmJustSam
 -responsive background image influenced by: William Craig
 
 https://www.webfx.com/blog/web-design/responsive-background-image/
+
+SCREENSHOTS:
+  [here](aboutsc.png)
+  [here](logoSc.png)
+  [here](scContact.png)
