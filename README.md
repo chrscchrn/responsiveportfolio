@@ -1,4 +1,5 @@
 # responsiveportfolio
+[here](https://chrscchrn.github.io/responsiveportfolio/)
 
 MOTIVATION/TECH/CREDITS
     My portfolio has a clean and minimal responsive design. It has been tested on various phones with different screen sizes. I wanted to make the layout especially simple for the sake of mobile devices. I think, though there are many good designs with more elements and features, simplicity looks best on mobile devices. Though there may not be many elements, this portfolio has up-to-date technology including Jquery, Javascript, CSS, and popper.js powered by Bootstrap. My own css file is also utilized. In this file I have designs which were partially influenced by creators whose work I have found exciting. In the CSS file there is credit given to the appropriate creators. 
@@ -17,6 +18,8 @@ https://medium.com/@AmJustSam
 -responsive background image influenced by: William Craig
 
 https://www.webfx.com/blog/web-design/responsive-background-image/
+
+
 
 SCREENSHOTS:
   [here](aboutsc.png)
